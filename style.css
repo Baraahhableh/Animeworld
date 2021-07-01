@@ -1,0 +1,35 @@
+.colorpink{
+  color: pink
+
+}
+
+li{
+  display: inline-block
+
+}
+
+a{
+ text-decoration: none
+
+}
+
+
+
+h1{
+float: centre
+
+
+}
+
+p{
+
+  font-family: "Lucida Console", "Courier New", monospace
+}
+
+footer{
+  font-style: oblique
+}
+
+body {
+  background-color: lightblue;
+}
