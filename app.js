@@ -1,13 +1,7 @@
-alert("welcome to my website")
-var favoriteAnime=prompt("what is your favorite anime?")
-alert("cool!")
+var guessnm= 10
+var ask= prompt ("Guess my favorite number")
+while (ask != guessnm){
+  ask= prompt("try again wrong answer!")
+}
+alert("you guessed it right")
 
-if(favoriteAnime =="attack on titan") {
-  alert ("amazing!")
-}
-else if (favoriteAnime != null){
-  document.write("<h2>"+ favoriteAnime  + "</h2>")
-}
-else{
-  alert("you did not write anything")
-}
